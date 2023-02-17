@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.form{
+    width: 500px;
+    height: 500px;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: lightyellow;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset{
+    background-color: lavenderblush;
+}
+.item, .itemAl, .itemtlp, .itemEm, .btn {
+    position: relative;
+    width: 400px;
+    margin-bottom:25px ;
+}
+legend{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+input, ,.item select{
+    margin-left: 50px;
+}
+label{
+    width: 250px;
+    display:block;
+}

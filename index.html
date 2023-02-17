@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 6</title>
+    <link rel="stylesheet" href="modul6.css">
+</head>
+<body>
+    <form action="#" method="post" id="form" name="formReg">
+        <fieldset>
+        <h1>Create a Profile</h1><br>
+        <h2 id="isi"></h2>
+        <div class="item">
+            <label for="firstName">First Name: </label>
+            <input type="text" name="first" id="firstName">
+            <span id="firstNote"></span>
+        </div>
+        <div class="item">
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="last" id="lastName">
+            <span id="lastNote"></span>
+        </div>
+        <div class="item">
+            <label for="date">Date of Birth :</label>
+            <select name="month" id="month"  >
+                <option value="">month</option>
+                <option value="Januari">Januari</option>
+                <option value="Februari">Februari</option>
+                <option value="Maret">Maret</option>
+                <option value="April">April</option>
+                <option value="Mei">Mei</option>
+                <option value="Juni">Juni</option>
+                <option value="Juli">Juli</option>
+                <option value="Agustus">Agustus</option>
+                <option value="September">September</option>
+                <option value="Oktober">Oktober</option>
+                <option value="November">November</option>
+                <option value="Desember">Desember</option>
+            </select>
+            <select name="days" id="days" >
+                <option value="">days</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="year" id="year" >
+                <option value="">year</option>
+                <option value="year">1997</option>
+                <option value="year">1998</option>
+                <option value="year">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+            </select>
+            <span id="dateNote"></span>
+        </div>
+        <div class="item">
+            <label for="Gender" id="JK">Gender :</label>
+            <label for="male">Male</label><input type="radio" name="Gender" id="male"  value="Female">
+            <label for="female">Female</label><input type="radio" name="Gender" id="female"  value="Male"> 
+            <span id="genderNote"></span>
+        </div>
+        <div class="itemAl">
+            <label for="alamat">Alamat:</label>
+            <input type="text" name="alamat" id="alamat">
+            <span id="alamatNote"></span>
+        </div>
+        <div class="itemtelp">
+            <label for="phone-number">Nomor Telephone:</label>
+            <input type="text" id="phone-number" onkeydown="phoneNumberformatter()">
+            <span id="phoneNote"></span>
+        </div>
+        <div class="itemEm">
+            <label for="email">E-mail :</label>
+            <input type="text" id="email" >
+            <span id="emailNote"></span>
+
+        </div>
+        <div class="btn">
+            <button type="submit" id="save()">Save</button>
+        </div>
+        <div class="save"></div>
+    
+    <div class="hasil" id="isi">
+        <p id="judul_Hasil"></p>
+        <p id="firstName_Hasil"></p>
+        <p id="lastName_Hasil"></p>
+        <p id="date_Hasil"></p>
+        <p id="gender_Hasil"></p>
+        <p id="alamat_Hasil" ></p>
+        <p id="phone_Hasil" ></p>
+        <p id="email_Hasil" ></p>
+    </div>
+    </fieldset>
+    </form>
+    <script src="modul6.js"></script>
+
+</body>
+</html>
